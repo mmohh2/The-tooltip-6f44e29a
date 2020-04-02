@@ -1,0 +1,22 @@
+.icon {
+    position: relative;
+    top: -1370px; left: 400px;
+}
+
+.icon:hover{
+    cursor: pointer;
+
+}
+.icon:hover + .tooltip-content{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    background-color: black;
+    top: 10%;
+    color: white;
+
+}
+.tooltip-content{
+    display: none;
+}
